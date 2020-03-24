@@ -23,5 +23,5 @@ script:
 - npm run build
 
 after_success:
--rsync -az --delete ./public/* ubuntu@118.25.172.123:/home/ubuntu/blog/
+- rsync -az --delete ./public/* ubuntu@118.25.172.123:/home/ubuntu/blog/
 
