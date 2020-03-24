@@ -1,7 +1,5 @@
 language: node_js
 
-sudo: false
-
 node_js:
   - "12"
 
@@ -17,7 +15,6 @@ branches:
 env:
   global:
     - GITHUB_REPO: github.com/herman7/blog.git
-
 
 script:
   - vuepress build
